@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    background-color: rgb(63, 189, 63);
+    color: rgb(247, 238, 226);
+}
+
+.main {
+    display: flex;
+}
+
+.section-1 {
+    background-color: azure;
+    border-right: 1px solid black;
+    height: 92.5vh;
+    width: 60vw;
+
+}
+
+.section-2 {
+    background-color: rgb(206, 248, 248);
+    border-left: 1px solid black;
+    height: 92.5vh;
+    width: 40vw;
+}
+
+.input-div {
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background-color: rgb(77, 74, 74);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.btn-1 {
+    font-size: 30px;
+    border: none;
+    background-color: rgb(62, 230, 62);
+    border-radius: 10px;
+    color: rgb(250, 248, 244);
+}
+
+.original-text-div,
+.change-text-div {
+    height: 225px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.original-text,
+.change-text {
+    width: 50vw;
+    height: 25vh;
+    border-radius: 10px;
+    background-color: rgb(158, 152, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+legend {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.description-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 50vw;
+    height: 90px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav {
+    border-bottom: 1px solid black;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-1-div,
+.main-2-div {
+    border: 1px solid black;
+    width: 40vw;
+    height: 86vh;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li:hover {
+    background: #333;
+    color: white;
+    scale: 1.2;
+}
