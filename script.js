@@ -20,7 +20,11 @@ $(document).ready(function () {
             { name: "toLowerCase()", result: input.toLowerCase(), des: 'Returns a string converted to lowercase letters' },
             { name: "charAt(0)", result: input.charAt(0), des: 'Returns the character at a specified index (position)' },
             { name: "substring(0,3)", result: input.substring(0, 3), des: 'Extracts characters from a string, between two specified indices (positions)' },
-            { name: "split('')", result: input.split(""), des: 'Splits a string into an array of substrings' }
+            { name: "split('')", result: input.split(""), des: 'Splits a string into an array of substrings' },
+            { name: "charCodeAt()", result: input.charCodeAt(1), des: 'Returns the Unicode of the character at a specified index' },
+            { name: "constructor", result: input.constructor , des: 'Returns the strings constructor function' },
+            { name: "repeat()", result: input.repeat(5) , des: 'Returns a new string with a number of copies of a string' },
+          
         ];
         methods.map((item) => {
             let li = $(` <li class="li">${item.name}</li>`)
